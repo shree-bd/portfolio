@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shridharbhardwaj.github.io/static/css/main.2a95634a.css",
-    "main.js": "/shridharbhardwaj.github.io/static/js/main.17f674ce.js",
-    "static/media/bg_1.png": "/shridharbhardwaj.github.io/static/media/bg_1.8aa1449fcf10ca4d34a6.png",
-    "static/media/about-me.png": "/shridharbhardwaj.github.io/static/media/about-me.5fbcd805c09f735708d6.png",
-    "index.html": "/shridharbhardwaj.github.io/index.html",
-    "main.2a95634a.css.map": "/shridharbhardwaj.github.io/static/css/main.2a95634a.css.map",
-    "main.17f674ce.js.map": "/shridharbhardwaj.github.io/static/js/main.17f674ce.js.map"
+    "main.css": "/static/css/main.2a95634a.css",
+    "main.js": "/static/js/main.fc2bf6e7.js",
+    "static/media/bg_1.png": "/static/media/bg_1.8aa1449fcf10ca4d34a6.png",
+    "static/media/about-me.png": "/static/media/about-me.5fbcd805c09f735708d6.png",
+    "index.html": "/index.html",
+    "main.2a95634a.css.map": "/static/css/main.2a95634a.css.map",
+    "main.fc2bf6e7.js.map": "/static/js/main.fc2bf6e7.js.map"
   },
   "entrypoints": [
     "static/css/main.2a95634a.css",
-    "static/js/main.17f674ce.js"
+    "static/js/main.fc2bf6e7.js"
   ]
 }
