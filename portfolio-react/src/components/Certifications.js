@@ -202,40 +202,6 @@ const Certifications = ({ darkMode }) => {
             </div>
           ))}
         </div>
-        
-        <div className="row justify-content-center mt-5">
-          <div className="col-md-8 text-center">
-            <div className="cert-summary">
-              <h4>🎯 Certification Summary</h4>
-              <div className="row mt-4">
-                <div className="col-md-3">
-                  <div className="summary-item">
-                    <span className="summary-number">12</span>
-                    <span className="summary-label">Total Certifications</span>
-                  </div>
-                </div>
-                <div className="col-md-3">
-                  <div className="summary-item">
-                    <span className="summary-number">6</span>
-                    <span className="summary-label">Cloud & Data</span>
-                  </div>
-                </div>
-                <div className="col-md-3">
-                  <div className="summary-item">
-                    <span className="summary-number">3</span>
-                    <span className="summary-label">AI/ML & DevOps</span>
-                  </div>
-                </div>
-                <div className="col-md-3">
-                  <div className="summary-item">
-                    <span className="summary-number">2024-25</span>
-                    <span className="summary-label">Recent Years</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
