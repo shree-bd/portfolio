@@ -9,9 +9,9 @@ const Hero = ({ darkMode }) => {
 
   const typingTexts = [
     'Full-Stack Software Engineer',
-    'Data Engineer & Consultant',
-    'Cloud Solutions Architect',
-    'AI/ML Enthusiast',
+    'Data Engineer',
+    'Python Developer',
+    'AI/ML Practitioner',
   ];
 
   useEffect(() => {
@@ -70,11 +70,11 @@ const Hero = ({ darkMode }) => {
                   
                   <br />
                   <br />
-                  <h2>🚀 Experienced Full-Stack Software Engineer</h2>
+                  <h2>🚀 Full-Stack Software Engineer</h2>
                   <p className="lead">
-                    Skilled in developing and maintaining applications using Java, Python, Spring Boot, Django, and React. 
-                    Proficient in cloud technologies, RESTful APIs, and databases. Experience integrating Generative AI and 
-                    machine learning for intelligent automation.
+                    Experienced software engineer with 5+ years of expertise in building and maintaining scalable applications using Python, Java, FastAPI, Django, Spring Boot, and ReactJS.
+                    Proficient in cloud technologies, RESTful APIs, and database systems, with hands-on experience integrating Generative AI and machine learning for intelligent automation.
+                    Outside of work, I enjoy hiking, cooking, and solving Sudoku puzzles to keep both body and mind active.
                   </p>
                   <p>
                     <a href="https://www.linkedin.com/in/shri007/" className="btn btn-white btn-outline-white py-3 px-4">
