@@ -3,13 +3,6 @@ import React from 'react';
 const Projects = ({ darkMode }) => {
   const projects = [
     {
-      title: "📝 NoteApp - Full-Stack Application",
-      description: "Django + React | Full-stack note-taking app with user authentication, CRUD operations, and modern UI. Features JWT authentication and responsive design.",
-      image: "images/proj_1.jpg",
-      link: "https://github.com/shree-bd/NoteApp-Django-React-Fullstack-",
-      technologies: ["Django", "React", "JavaScript"]
-    },
-    {
       title: "📈 Stock Market Kafka Simulation",
       description: "Real-time Data Engineering | End-to-end data pipeline using Kafka for real-time stock market data processing and analysis with Python.",
       image: "images/proj_1.jpg",
@@ -52,11 +45,18 @@ const Projects = ({ darkMode }) => {
       technologies: ["API", "Python", "REST"]
     },
     {
-      title: "📱 NoteApp - Django Backend",
-      description: "Django Framework | Secure note-taking application backend with JWT authentication, user management, and comprehensive API endpoints.",
+      title: "🤖 NoteAI - AI-Powered Note-Taking",
+      description: "AI Integration | Intelligent note-taking application with AI-powered features including smart auto-tagging, content enhancement, and smart title generation using OpenAI.",
       image: "images/proj_1.jpg",
-      link: "https://github.com/shree-bd/NoteApp",
-      technologies: ["Django", "Python", "JWT"]
+      link: "https://github.com/shree-bd/NoteAI",
+      technologies: ["React", "Django", "AI"]
+    },
+    {
+      title: "🔐 Golang User Management System",
+      description: "Backend Development | Secure user management system built with Go, featuring JWT authentication, MongoDB integration, and RESTful API design with modern web interface.",
+      image: "images/proj_1.jpg",
+      link: "https://github.com/shree-bd/golang-user-management",
+      technologies: ["Go", "MongoDB", "JWT"]
     },
     {
       title: "🎥 YouTube Manager",
@@ -103,7 +103,8 @@ const Projects = ({ darkMode }) => {
       'NoSQL': 'badge-info',
       'AI': 'badge-danger',
       'HTML5': 'badge-warning',
-      'CSS3': 'badge-info'
+      'CSS3': 'badge-info',
+      'Go': 'badge-info'
     };
     return techClasses[tech] || 'badge-secondary';
   };
