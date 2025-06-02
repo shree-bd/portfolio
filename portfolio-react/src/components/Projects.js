@@ -10,6 +10,13 @@ const Projects = ({ darkMode }) => {
       technologies: ["Django", "React", "JavaScript"]
     },
     {
+      title: "🚀 Go Microservices API",
+      description: "Golang + Docker | High-performance microservices architecture with Go, featuring REST APIs, middleware, and containerized deployment.",
+      image: "images/proj_1.jpg",
+      link: "https://github.com/shree-bd/go-microservices-api",
+      technologies: ["Go", "Docker", "REST"]
+    },
+    {
       title: "📈 Stock Market Kafka Simulation",
       description: "Real-time Data Engineering | End-to-end data pipeline using Kafka for real-time stock market data processing and analysis with Python.",
       image: "images/proj_1.jpg",
@@ -17,11 +24,25 @@ const Projects = ({ darkMode }) => {
       technologies: ["Kafka", "Python", "Jupyter"]
     },
     {
+      title: "⚡ Go WebSocket Chat Server",
+      description: "Golang + WebSocket | Real-time chat application with Go backend, WebSocket connections, and concurrent message handling.",
+      image: "images/proj_1.jpg",
+      link: "https://github.com/shree-bd/go-websocket-chat",
+      technologies: ["Go", "WebSocket", "Concurrency"]
+    },
+    {
       title: "🤖 Face Emotion Recognition AI",
       description: "Computer Vision & ML | AI model for recognizing emotions from facial expressions using deep learning and computer vision techniques.",
       image: "images/proj_5.jpg",
       link: "https://github.com/shree-bd/FaceEmotion-Recognition_System-AI-ML-",
       technologies: ["AI/ML", "Python", "OpenCV"]
+    },
+    {
+      title: "🔧 Go CLI Tool",
+      description: "Command Line Interface | Powerful CLI application built with Go featuring file processing, data manipulation, and cross-platform compatibility.",
+      image: "images/proj_1.jpg",
+      link: "https://github.com/shree-bd/go-cli-tool",
+      technologies: ["Go", "CLI", "Cross-platform"]
     },
     {
       title: "💰 Finance Data Analysis",
@@ -86,6 +107,12 @@ const Projects = ({ darkMode }) => {
       'Django': 'badge-primary',
       'React': 'badge-info',
       'JavaScript': 'badge-success',
+      'Go': 'badge-primary',
+      'Docker': 'badge-info',
+      'WebSocket': 'badge-warning',
+      'Concurrency': 'badge-success',
+      'CLI': 'badge-secondary',
+      'Cross-platform': 'badge-info',
       'Kafka': 'badge-warning',
       'Python': 'badge-primary',
       'Jupyter': 'badge-info',

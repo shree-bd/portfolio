@@ -60,6 +60,7 @@ const About = ({ darkMode }) => {
   const skills = [
     { name: 'Python', rating: 5 },
     { name: 'Java', rating: 4.5 },
+    { name: 'Go/Golang', rating: 4 },
     { name: 'Django', rating: 5 },
     { name: 'FastAPI', rating: 4.5 },
     { name: 'Spring Boot', rating: 4.5 },
