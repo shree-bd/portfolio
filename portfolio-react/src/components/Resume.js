@@ -4,24 +4,25 @@ const Resume = ({ darkMode }) => {
   const experiences = [
     {
       date: "February 2024-Present",
-      title: "Software Engineer",
+      title: "Software Engineer II",
       company: "Ameriprise Financial | Charlotte, NC",
       description: "Leading financial firm managing wealth for 100M+ customers across the United States.",
       achievements: [
-        "🚀 Developed secured and scalable applications with Python, leveraging multithreading, SQLAlchemy, Django ORM, and RESTful APIs",
-        "☁️ Streamlined development of enterprise microservices using AWS Lambda, API Gateway, DynamoDB, S3, and IAM, significantly increasing annual revenue by 7%",
-        "🔧 Implemented AWS infrastructure using Terraform, Kubernetes, and Docker, ensuring scalable deployment of cloud resources across AWS environments to enhance efficiency by 45%"
+        "Developed secured and scalable applications with Python, leveraging multithreading, SQLAlchemy, Django ORM, and RESTful APIs",
+        "Built high-performance microservices using FastAPI with async/await patterns, Pydantic data validation, and automatic OpenAPI documentation, reducing API response times by 40%",
+        "Streamlined development of enterprise microservices using AWS Lambda, API Gateway, DynamoDB, S3, and IAM, significantly increasing annual revenue by 7%",
+        "Implemented AWS infrastructure using Terraform, Kubernetes, and Docker, ensuring scalable deployment of cloud resources across AWS environments to enhance efficiency by 45%"
       ]
     },
     {
       date: "January 2023-December 2023",
-      title: "Software Engineer Intern",
+      title: "Software Engineer",
       company: "Vanguard | Malvern, PA",
       description: "Leading investment management company serving millions of investors worldwide.",
       achievements: [
-        "💾 Engineered a customer storage solution with AWS DynamoDB and Spring Boot, leveraging GraphQL microservices to improve data indexing by 35%",
-        "⚡ Automated data indexing with AWS Lambda, optimized database queries, and conducted performance testing to handle high-volume data with low latency and improve system scalability by 25%",
-        "🔐 Implemented authentication and authorization in mobile apps using Spring Security, JWT, JUnit, and OAuth, ensuring 99.9% reliability"
+        "Engineered a customer storage solution with AWS DynamoDB and Spring Boot, leveraging GraphQL microservices to improve data indexing by 35%",
+        "Automated data indexing with AWS Lambda, optimized database queries, and conducted performance testing to handle high-volume data with low latency and improve system scalability by 25%",
+        "Implemented authentication and authorization in mobile apps using Spring Security, JWT, JUnit, and OAuth, ensuring 99.9% reliability"
       ]
     },
     {
@@ -30,9 +31,11 @@ const Resume = ({ darkMode }) => {
       company: "Dvara Solutions | Bangalore, India",
       description: "Data-driven digital marketing analytics and solutions company serving top 100 global brands.",
       achievements: [
-        "💰 Redesigned and implemented applications for managing customer loans and generating financial reports using Python, Django, PostgreSQL, Node.js, React, Redux, and jQuery, supporting $500M AUM and 4M+ customers",
-        "🔧 Produced reusable web components, Django views, and models for user registration modules, and created RESTful APIs for low-cost application integration using JSON",
-        "⚡ Developed an abstract API layer with Django REST Framework, object-oriented design, system design, and microservices, using Kafka to improve system responsiveness by 30%"
+        "Redesigned and implemented applications for managing customer loans and generating financial reports using Python, Django, PostgreSQL, Node.js, React, Redux, and jQuery, supporting $500M AUM and 4M+ customers",
+        "Built distributed data processing pipelines using PySpark and Apache Spark to handle large-scale financial datasets, processing 10M+ transactions daily with improved performance and scalability",
+        "Produced reusable web components, Django views, and models for user registration modules, and created RESTful APIs for low-cost application integration using JSON",
+        "Developed an abstract API layer with Django REST Framework, object-oriented design, system design, and microservices, using Kafka to improve system responsiveness by 30%",
+        "Implemented distributed computing solutions with Apache Spark, Hadoop ecosystem, and cloud-based data lakes for real-time analytics and batch processing of customer financial data"
       ]
     },
     {
@@ -41,9 +44,10 @@ const Resume = ({ darkMode }) => {
       company: "Cosmocrat Software Solutions | Noida, India",
       description: "Leading digital marketing firm managing diverse clients across the globe.",
       achievements: [
-        "🌐 Improved the website with reusable components using JS, TypeScript, ReactJS, HTML, and CSS, boosting engagement by 30%",
-        "🔧 Built RESTful web services with rate limiting in Spring Boot and delivered 3 SaaS modules & 12 new features for Snapdeal, increasing user adoption by 35%",
-        "📊 Boosted MongoDB with indexing for fast queries and normalized PostgreSQL for data integrity, enhancing performance across application modules"
+        "Developed full stack web applications with Java Spring Boot backend and React.js frontend, improving website performance and user engagement by 30%",
+        "Built RESTful web services with rate limiting in Spring Boot and delivered 3 SaaS modules & 12 new features for Snapdeal, increasing user adoption by 35%",
+        "Implemented backend APIs using Java, Spring Framework, and JPA for data persistence, while creating responsive frontend components with JavaScript, TypeScript, ReactJS, HTML, and CSS",
+        "Optimized database performance by implementing MongoDB indexing for fast queries and normalized PostgreSQL schemas for data integrity, enhancing performance across application modules"
       ]
     },
 
@@ -79,9 +83,9 @@ const Resume = ({ darkMode }) => {
             <h1 className="big big-2">Resume</h1>
             <h2 className="mb-4">Resume</h2>
             <p>
-              🚀 <strong>Experienced Full-Stack Software Engineer</strong> with 7+ years of experience and MS in Computer Science 
-              from California State University. Currently driving innovation at <strong>Ameriprise Financial</strong>, developing 
-              enterprise-scale applications that serve 100M+ customers. Proven expertise in <strong>Java, Python, React, AWS, and AI/ML</strong> 
+              🚀 Experienced Full-Stack Software Engineer with 5+ years of experience and MS in Computer Science 
+              from California State University. Currently driving innovation at Ameriprise Financial, developing 
+              enterprise-scale applications that serve 100M+ customers. Proven expertise in Java, Python, React, AWS, and AI/ML 
               with a track record of increasing revenue and system efficiency.
             </p>
           </div>
